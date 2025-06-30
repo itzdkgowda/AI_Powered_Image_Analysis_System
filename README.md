@@ -14,3 +14,27 @@ This project is a web-based application that performs real-time object detection
 
 - 📁 **Upload Image**: Send an image to the server and receive annotated results
 - 🎥 **Live Detection**: Activate your webcam and see objects detected in real-time
+
+
+🖥️ 1. Set Up Your Environment
+git clone 
+crete virtual environmen
+Make sure you're inside your virtual environment (e.g., tfod-env) and your project has this structure:
+
+Install the dependencies:
+pip install -r requirements.txt
+
+🚀 2. Run the Web App (Detection via Upload & Live Cam)
+
+python app.py
+
+Then open http://localhost:5000 in your browser.
+
+Click 📁 Upload Image to analyze any photo
+
+Click 🎥 Live Detection to activate your webcam
+
+> This runs using the trained YOLOv8 weights and gives real-time results.
+
+
+
