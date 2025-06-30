@@ -1,0 +1,9 @@
+names:
+  0: phone
+  1: mouse
+  2: plastic bottles
+  3: steel bottles
+path: C:/Users/itzdh/Desktop/Object Detection Model/Dataset_split
+test: images/test
+train: images/train
+val: images/val
